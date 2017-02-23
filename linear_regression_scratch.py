@@ -57,7 +57,7 @@ def run():
 	#y = mx+b(slope formula)
 	initial_b = 0
 	initial_m = 0
-	num_iterations = 10000000
+	num_iterations = 1000
 
 	# Step 3. Training the model
 	print ('starting gradient at b = {}, m={}, error = {}'.format(initial_b,initial_m,compute_error_for_line_given_points(initial_b,initial_m,points)))
